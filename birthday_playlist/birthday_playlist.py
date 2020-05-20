@@ -16,7 +16,14 @@ def _to_chunks(lst, count) -> Sequence[str]:
         yield lst[i:i + count]
 
 
-def add_tracks(username, playlist_id, tracks: Sequence[str]) -> None:
+def add_tracks(username: str, playlist_id: str, tracks: Sequence[str]) -> None:
+    """Add tracks to the specified playlist
+
+    Args:
+        username (str): Spotify username
+        playlist_id (str): ID of the user's playlist
+        tracks (Sequence[str]): List of tracks to add
+    """
     # Read in .env
     env = Env()
     env.read_env()
