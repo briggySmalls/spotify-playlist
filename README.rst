@@ -21,7 +21,7 @@ Installation
 Usage
 -----
 
-- Log in to your Spotify account and spotify_developer_`create an application`
+- Log in to your Spotify account and `create an application`_
 - Copy the :code:`.env.example` file to :code:`.env` and supply the information obtained in the previous step
 - Activate the poetry shell `poetry shell`
 - Execute the tool:
@@ -29,7 +29,7 @@ Usage
 .. code-block:: bash
     birthday_playlist --help
 
-.. _spotify_developer: https://developer.spotify.com/dashboard/applications
+.. _create an application: https://developer.spotify.com/dashboard/applications
 
 Credits
 -------
