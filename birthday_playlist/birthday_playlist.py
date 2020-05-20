@@ -1,11 +1,10 @@
 """Main module."""
-from typing import Sequence
 import logging
+from typing import Sequence
 
-from environs import Env
 import spotipy
 import spotipy.util as util
-
+from environs import Env
 
 logger = logging.getLogger(__name__)
 _SCOPE = 'playlist-modify-public'

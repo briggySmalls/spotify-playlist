@@ -1,6 +1,6 @@
 """Console script for birthday_playlist."""
-import sys
 import logging
+import sys
 
 import click
 
