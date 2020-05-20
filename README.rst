@@ -16,7 +16,7 @@ Installation
 - Install poetry_
 - Install dependencies: `poetry install`
 
-.. poetry_: https://python-poetry.org/
+.. _poetry: https://python-poetry.org/
 
 Usage
 -----
@@ -29,7 +29,7 @@ Usage
 .. code-block:: bash
     birthday_playlist --help
 
-.. spotify_developer_: https://developer.spotify.com/dashboard/applications
+.. _spotify_developer: https://developer.spotify.com/dashboard/applications
 
 Credits
 -------
