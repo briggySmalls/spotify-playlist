@@ -16,20 +16,20 @@ Installation
 - Install poetry_
 - Install dependencies: `poetry install`
 
-poetry_: https://python-poetry.org/
+.. poetry_: https://python-poetry.org/
 
 Usage
 -----
 
 - Log in to your Spotify account and spotify_developer_`create an application`
-- Copy the `.env.example` file to `.env` and supply the information obtained in the previous step
+- Copy the :code:`.env.example` file to :code:`.env` and supply the information obtained in the previous step
 - Activate the poetry shell `poetry shell`
 - Execute the tool:
 
 .. code-block:: bash
     birthday_playlist --help
 
-spotify_developer_: https://developer.spotify.com/dashboard/applications
+.. spotify_developer_: https://developer.spotify.com/dashboard/applications
 
 Credits
 -------
