@@ -14,7 +14,7 @@ Installation
 
 - Clone the source
 - Install poetry_
-- Install dependencies: `poetry install`
+- Install dependencies: :code:`poetry install`
 
 .. _poetry: https://python-poetry.org/
 
